@@ -1,146 +1,228 @@
-#phonesHead {
-  color: #000;
-  /*text*-align: center;*/
-  margin-top: 0;
-  font-size: 50px;
-  vertical-align: middle;
-  line-height: 90px;
-  /*font-family: "Josefin Sans";*/
-  font-family: "lemonmilk";
-  font-weight: 100;
-  margin-left: 28px;
-  text-align: center;
-  display: inline-block;
-}
-
-.navBar {
-  width: 100%;
-  background-color: #fff;
-  margin-top: 0px;
-  height: 88px;
-
-}
-
 body {
-  margin: 0 0;
-background-color: #000;
-
-}
-
-.navBar img {
-  float: left;
-  padding: 20px 16px;
-}
-
-#left {
-float: left;
-padding-left: 16px;
--webkit-transition: background 0.2s;
-transition: background 0.2s;
-text-decoration: none;
-color: black;
-}
-
-#right {
-  float: right;
-  padding-right: 16px;
-  -webkit-transition: background 0.2s;
-transition: background 0.2s;
-text-decoration: none;
-color: black;
-}
-
-#middle {
-text-align: center;
-padding: 9px;
--webkit-transition: background 0.2s;
-transition: background 0.2s;
-text-decoration: none;
-color: black;
-}
-
-#header {
-padding-left: 349px;
-}
-
-#phonesHead a:hover {
-  background-color: #050505;
-  color: #fff;
-}
-
-.xr img {
-  height: 400px;
-  border: 6px solid #fff;
-  border-radius: 45px;
-  margin: 40px 160px;
-  float: left;
-}
-
-/* .container h1 {
-  //*font-style: italic;
-  color: #fff;
-  font-family: "lemonmilk";
-  /*font-weight: 100;*/
-  font-size: 45px;
-  /*text-align: center;*/
-/*}*/
-
-.paragraph1 a{
-  color: #fff;
-  font-family: "lemonmilk";
-  padding-top: 53px;
-}
-
-.xrTitle {
-margin-left: 160px;
-}
-
-#xr {
-  //*text-align: center;
-}
-
-.bottom1 {
-  color: #fff;
-  font-family: "lemonmilk";
-
-}
-
-.xrSpecs a{
-  font-family: "lemonmilk";
-  color: white;
-}
-
-#header a:active {
   background-color: #000;
-  color: #fff;
+    border: solid 8px #0fff;
+    transition: .5s;
+    margin: 0 0;
+    height: 98.22vh;
 }
 
-.laptop {
 
-}
-
-.titles a {
+a.shup {
   font-family: "lemonmilk";
+  font-size: 300px;
   color: #fff;
+  letter-spacing: 15px;
+  text-align: center;
+  /*line-height: 98.22vh;*/
+  vertical-align: middle;
+  display: block;
+  transition: .5s;
+  padding-top: 225px;
 }
 
-/*.phonesTitle {
-  text-decoration: none;
-  padding-left: 260px;
+a.shup::first-letter {
+  text-shadow: 0 0 0 transparent, 0px 0px 15px #fff;
+color: #050505;
+}
+
+/*#glow {
+  font-size: 150px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+*/
+
+/*a.projects {
+  font-family: "poppins";
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 15px;
+  font-weight: 600;
+}
+*/
+
+a.projects {
+
+}
+
+
+div.hidden {
+  display: none;
+}
+
+
+/*a.shup::first-letter:hover {
+  text-shadow: 0 0 0 transparent, 0px 0px 15px #fff;
+  color: #050505;
+
 }*/
 
-.computerTitle {
-  text-decoration: none;
-  padding-left: 265px;
+html {
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
-.phonesTitle {
-  width: 363px;
-  text-align: center;
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-h1. leftTitle  {
-  color: #fff;
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+::-moz-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-moz-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+
+body.hidden {
+  display: none;
+}
+
+
+
+
+a.proj {
   font-family: "lemonmilk";
+  font-size: 250px;
+  color: #fff;
+  letter-spacing: 15px;
   text-align: center;
+  /*line-height: 98.22vh;*/
+  /*vertical-align: middle;*/
+  display: block;
+  transition: .5s;
+  padding-top: 225px;
+}
+
+a.proj::first-letter {
+  text-shadow: 0 0 0 transparent, 0px 0px 15px #fff;
+color: #050505;
+}
+
+
+
+a.proj {
+
+}
+
+
+.teslaButton {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 37px;
+	text-decoration:none;
+  margin-right: 20px;
+  transition: .5s;
+}
+.teslaButton:hover {
+	background-color: #fff;
+  color: #000;
+}
+.teslaButton:active {
+	position:relative;
+	top:1px;
+}
+
+div.buttons {
+  text-align: center;
+}
+
+
+@media (max-width: 420px) {
+a.shup {
+  font-size: 95px;
+}
+
+a.teslaButton#tesla {
+
+}
+
+a.teslaButton#hello {
+
+}
+
+a.teslaButton#dark {
+  padding: 14px 18.5px !important;
+  margin-top: 16px;
+  margin-left: 15px;
+}
+
+a.teslaButton#yt {
+padding: 14px 18.5px !important;
+}
+
+}
+
+@media (min-width: 770px) {
+a.shup {
+  font-size: 250px;
+}
+
+
+}
+
+
+@media (min-width: 800px) {
+a.shup {
+  font-size: 250px;
+}
+
+
+}
+
+
+@media (min-width: 760px) {
+a.shup {
+  font-size: 250px;
+}
+
+a.teslaButton#tesla {
+
+}
+
+a.teslaButton#hello {
+
+}
+
+a.teslaButton#dark {
+  padding: 14px 16.5px !important;
+  margin-top: 16px;
+  margin-left: 15px;
+}
+
+a.teslaButton#yt {
+padding: 14px 16.5px !important;
+}
+
 }

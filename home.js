@@ -19,4 +19,6 @@ var random_color = colors[Math.floor(Math.random() * colors.length)];
 $('a#glow.shup').css('color', random_color);
 $("body").css("border-color", random_color);
   $('a#glow.proj').css('color', random_color);
+
+
 //var oof = $('a#glow.shup').css("color")
